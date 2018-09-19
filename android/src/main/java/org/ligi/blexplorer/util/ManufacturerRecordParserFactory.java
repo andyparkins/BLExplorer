@@ -163,7 +163,7 @@ public final class ManufacturerRecordParserFactory {
                 mTXPower = mBytes[20];
             }
 
-            return false;
+            return true;
         }
 
         @Override
